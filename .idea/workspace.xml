@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6973c14a-ac55-4ce4-9b94-a4a904793f7e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controler/mssql_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/controler/mssql_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controler/readini.py" beforeDir="false" afterPath="$PROJECT_DIR$/controler/readini.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controler/uison.py" beforeDir="false" afterPath="$PROJECT_DIR$/controler/uison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="6973c14a-ac55-4ce4-9b94-a4a904793f7e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controler/uison.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="30">
+              <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="14" />
               <folding>
                 <element signature="e#13#32#0" expanded="true" />
               </folding>
@@ -166,21 +160,6 @@
               <item name="zymxsc" type="b2602c69:ProjectViewProjectNode" />
               <item name="zymxsc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zymxsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zymxsc" type="462c0819:PsiDirectoryNode" />
-              <item name="controler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zymxsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zymxsc" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zymxsc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zymxsc" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -195,12 +174,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\python\zymxsc\image" />
-      <recent name="D:\python\zymxsc" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\python\zymxsc\controler" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\zymxsc\dist" />
+      <recent name="D:\python\zymxsc\image" />
+      <recent name="D:\python\zymxsc" />
       <recent name="D:\python\zymxsc\controler" />
     </key>
   </component>
@@ -312,26 +292,49 @@
       <option name="project" value="LOCAL" />
       <updated>1561912059503</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="上线版本">
+      <created>1561917295782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561917295782</updated>
+    </task>
+    <task id="LOCAL-00004" summary="相关安装包">
+      <created>1561917426819</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561917426819</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359338" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4972419" weight="0.325273" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4964539" weight="0.325273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36895475" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49960598" weight="0.3299532" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4964539" visible="true" weight="0.33151326" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5035461" side_tool="true" visible="true" weight="0.33151326" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49921197" weight="0.3299532" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960598" weight="0.3299532" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49802995" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4960599" weight="0.33151326" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50197005" side_tool="true" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49881798" weight="0.3299532" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -340,7 +343,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加了数据库连接相关功能" />
     <MESSAGE value="已经是一个可用版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="已经是一个可用版本" />
+    <MESSAGE value="上线版本" />
+    <MESSAGE value="相关安装包" />
+    <option name="LAST_COMMIT_MESSAGE" value="相关安装包" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-313451744/PyQt5/QtGui/QStandardItemModel.py">
@@ -473,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controler/uison.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="10" selection-end-column="14" />
           <folding>
             <element signature="e#13#32#0" expanded="true" />
           </folding>
