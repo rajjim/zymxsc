@@ -28,6 +28,17 @@ class Mssql_helper:
             return zymxlist
         except Exception as e:
             print(e)
+            return []
+
+    def deleteDate(self,sql):
+        try:
+            self.__getCursor()
+            self.cursor.execute(sql)
+            self.conn.commit()
+            return "执行成功"
+        except Exception as e:
+            print(e)
+            return "执行失败"
 
     def __del__(self):
         try:

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>655</width>
-    <height>528</height>
+    <width>931</width>
+    <height>580</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,31 +16,7 @@
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="1">
-      <widget class="QLineEdit" name="lineEdit"/>
-     </item>
-     <item row="0" column="5" rowspan="2">
-      <widget class="QPushButton" name="pushButton">
-       <property name="text">
-        <string>查询</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="1" colspan="5">
-      <widget class="QProgressBar" name="progressBar">
-       <property name="value">
-        <number>100</number>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string>  进度：</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0" colspan="6">
+     <item row="5" column="0" colspan="6">
       <widget class="QTableView" name="tableView">
        <property name="editTriggers">
         <set>QAbstractItemView::NoEditTriggers</set>
@@ -54,28 +30,34 @@
        <attribute name="horizontalHeaderCascadingSectionResizes">
         <bool>true</bool>
        </attribute>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>false</bool>
+       </attribute>
        <attribute name="verticalHeaderCascadingSectionResizes">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderStretchLastSection">
         <bool>false</bool>
        </attribute>
       </widget>
      </item>
-     <item row="1" column="3" colspan="2">
-      <widget class="QLineEdit" name="lineEdit_4"/>
+     <item row="1" column="4">
+      <widget class="QDateEdit" name="de_end"/>
      </item>
-     <item row="1" column="2">
+     <item row="1" column="1">
+      <widget class="QDateEdit" name="de_start"/>
+     </item>
+     <item row="1" column="3">
       <widget class="QLabel" name="label_5">
        <property name="text">
-        <string>至</string>
+        <string>    至</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="1">
-      <widget class="QLineEdit" name="lineEdit_3"/>
-     </item>
-     <item row="0" column="3">
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string> 项目名称：</string>
+     <item row="6" column="1" colspan="5">
+      <widget class="QProgressBar" name="progressBar">
+       <property name="value">
+        <number>100</number>
        </property>
       </widget>
      </item>
@@ -86,8 +68,25 @@
        </property>
       </widget>
      </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string> 项目名称：</string>
+       </property>
+      </widget>
+     </item>
      <item row="0" column="4">
-      <widget class="QLineEdit" name="lineEdit_2"/>
+      <widget class="QLineEdit" name="le_yzm"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="le_blh"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>  进度：</string>
+       </property>
+      </widget>
      </item>
      <item row="1" column="0">
       <widget class="QLabel" name="label_4">
@@ -96,51 +95,29 @@
        </property>
       </widget>
      </item>
+     <item row="1" column="5">
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string>按日期查</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>查询</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </item>
   </layout>
  </widget>
  <tabstops>
-  <tabstop>lineEdit</tabstop>
-  <tabstop>lineEdit_2</tabstop>
-  <tabstop>lineEdit_3</tabstop>
-  <tabstop>lineEdit_4</tabstop>
-  <tabstop>pushButton</tabstop>
+  <tabstop>le_blh</tabstop>
+  <tabstop>le_yzm</tabstop>
   <tabstop>tableView</tabstop>
  </tabstops>
  <resources/>
- <connections>
-  <connection>
-   <sender>pushButton</sender>
-   <signal>clicked()</signal>
-   <receiver>lineEdit_2</receiver>
-   <slot>clear()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>479</x>
-     <y>50</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>346</x>
-     <y>54</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton</sender>
-   <signal>clicked()</signal>
-   <receiver>lineEdit</receiver>
-   <slot>clear()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>485</x>
-     <y>57</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>182</x>
-     <y>53</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>
