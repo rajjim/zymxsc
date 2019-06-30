@@ -1,5 +1,5 @@
 import pymssql
-from model import zymx
+import decimal
 class Mssql_helper:
     def __init__(self,host,user,pwd,db):
         self.host=host

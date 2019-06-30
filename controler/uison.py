@@ -8,6 +8,7 @@ from controler import readini
 from controler import mssql_helper
 import re
 import datetime
+import decimal
 class uison(ui.Ui_Form,QDialog):
     def __init__(self,parent=None):
         super(uison, self).__init__(parent)
