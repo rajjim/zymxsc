@@ -23,7 +23,7 @@ class Ui_Form(object):
         self.pushButton.setObjectName("pushButton")
         self.gridLayout.addWidget(self.pushButton, 0, 5, 2, 1)
         self.progressBar = QtWidgets.QProgressBar(Form)
-        self.progressBar.setProperty("value", 24)
+        self.progressBar.setProperty("value", 100)
         self.progressBar.setObjectName("progressBar")
         self.gridLayout.addWidget(self.progressBar, 3, 1, 1, 5)
         self.label_3 = QtWidgets.QLabel(Form)
